@@ -1,0 +1,55 @@
+{
+    "results": {
+        "webUserAgent": {
+            "firstName": "Clive",
+            "middleName": "Anthony",
+            "lastName": "Beckford",
+            "email": "clive.beckford@gmail.Com",
+            "role": "Simulated Web User Agent",
+            "desire": "prove that I am smart enough to find and fill out online HTML forms as instructed",
+            "intent": "Application Form",
+            "application": "Mock Web Application",
+            "keysPerSecond": "4"
+			"plannedSteps": {
+                "1": {
+                    "userWill": "visit",
+                    "the": "url",
+                    "with": "http://localhost:9090/"
+                },
+                "2": {
+                    "userWill": "fill",
+                    "the": "TEXT_BOX",
+                    "with": "%{First Name}%",
+                    "locators": {
+                        "1": {
+							"locatorType": "TARGET_LOCATOR",
+                            "locatorRelativePosition": "",
+							"locatorTargetType": "",
+                            "locatorOperator": "EQUAL",
+                            "locatorCriteria": "ORDINAL_INSTANCE",
+                            "locatorValue": "1"
+                        }, 
+						"2": {
+							"locatorType": "TARGET_LOCATOR",
+                            "locatorRelativePosition": "",
+							"locatorTargetType": "",
+                            "locatorOperator": "EQUAL",
+                            "locatorCriteria": "XPATH_EXPRESSION",
+                            "locatorValue": "@alt='Your first name'"
+                        }, 
+						"3": {
+							"locatorType": "RELATIVE_LOCATOR",
+                            "locatorRelativePosition": "BESIDE",
+							"locatorTargetType": "TEXT",
+                            "locatorOperator": "CONTAINING",
+                            "locatorCriteria": "TEXT_VALUE",
+                            "locatorValue": "First Name"
+                        }
+                    }
+                }
+				
+				
+            }
+        }
+    }
+}

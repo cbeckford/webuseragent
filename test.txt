@@ -1,0 +1,51 @@
+Starting Web User Agent API..
+2016/05/18 01:59:27.275 [DEBUG] |JSON CONTENT:null
+2016/05/18 01:59:27.392 [DEBUG] |MEMORY:1 Learn (firstName=Clive)!
+2016/05/18 01:59:27.392 [DEBUG] |MEMORY:1 Learn (lastName=Beckford)!
+2016/05/18 01:59:27.392 [DEBUG] |MEMORY:1 Learn (role=Simulated Web User Agent)!
+2016/05/18 01:59:27.392 [DEBUG] |MEMORY:1 Learn (desire=prove that I am smart enough to find and fill out online HTML forms as instructed)!
+2016/05/18 01:59:27.393 [DEBUG] |MEMORY:1 Learn (application=Mock Web Application)!
+2016/05/18 01:59:27.393 [DEBUG] |MEMORY:1 Learn (middleName=Anthony)!
+2016/05/18 01:59:27.393 [DEBUG] |MEMORY:1 Learn (intent=Application Form)!
+2016/05/18 01:59:27.393 [DEBUG] |MEMORY:1 Learn (keysPerSecond=4)!
+2016/05/18 01:59:27.393 [DEBUG] |MEMORY:1 Learn (email=clive.beckford@gmail.Com)!
+2016/05/18 01:59:27.395 [INFO] |PLAN: 1|INTRODUCTION: Hi!
+2016/05/18 01:59:27.395 [INFO] |PLAN: 1|INTRODUCTION: I am a 'Simulated Web User Agent'
+2016/05/18 01:59:27.396 [INFO] |PLAN: 1|INTRODUCTION: My name is ?? Clive Anthony Beckford 
+2016/05/18 01:59:27.396 [INFO] |PLAN: 1|INTRODUCTION: I want to prove that I am smart enough to find and fill out online HTML forms as instructed, 
+2016/05/18 01:59:27.396 [INFO] |PLAN: 1|INTRODUCTION: So I intend to use the 'Application Form' feature
+2016/05/18 01:59:27.396 [INFO] |PLAN: 1|INTRODUCTION: of the 'Mock Web Application' web application!
+2016/05/18 01:59:27.401 [DEBUG] |CONFIGRATION: BROWSER: Initializing....
+2016/05/18 01:59:27.402 [DEBUG] |PLAN:1 Loading (2) STEPS...
+2016/05/18 01:59:27.404 [DEBUG] |PLAN:1|STEP: New step found ...
+2016/05/18 01:59:27.408 [INFO] |PLAN:1|STEP: No LOCATORS found!
+2016/05/18 01:59:27.409 [INFO] |PLAN:1|STEP:1.1|  'VISIT' the 'URL' with 'http://localhost:9090/'
+2016/05/18 01:59:33.021 [DEBUG] |CONFIGRATION: BROWSER: Initialized!
+2016/05/18 01:59:33.022 [DEBUG] |PLAN:1|STEP:1.1|TARGET|ACTION:GO_TO
+2016/05/18 01:59:33.022 [DEBUG] |PLAN:1|STEP:1.1| I Will [GO_TO] the [URL]:  with [http://localhost:9090/]
+2016/05/18 01:59:33.023 [INFO] |
+2016/05/18 01:59:33.024 [INFO] |
+2016/05/18 01:59:33.024 [INFO] |
+2016/05/18 01:59:33.458 [DEBUG] |PLAN:1|STEP:1.1|TARGET:URL|ACTION:GO_TO|STATUS:Done (GO_TO the URL)!
+2016/05/18 01:59:33.675 [INFO] |PLAN:1|STEP:1.1|STATUS:COMPLETED|SCREENSHOT: C:/uol/webuseragentapi/src/main/resources/public/images/screenshot2016-05-18_015933662.png
+2016/05/18 01:59:33.675 [DEBUG] |PLAN:1|STEP: New step found ...
+2016/05/18 01:59:33.680 [DEBUG] |MEMKEY........: First Name
+2016/05/18 01:59:33.681 [DEBUG] |PLAN:1|STEP: Loading (3) LOCATORS...
+2016/05/18 01:59:33.682 [DEBUG] |PLAN:1|STEP:1.2|TARGET|LOCATORS:1| Loading LOCATOR...({"locatorRelativePosition":"","locatorValue":"1","locatorType":"TARGET_LOCATOR","locatorOperator":"EQUAL","locatorCriteria":"ORDINAL_INSTANCE","locatorTargetType":""}
+2016/05/18 01:59:33.683 [DEBUG] |PLAN:1|STEP:1.2|TARGET|LOCATORS:2| Loading LOCATOR...({"locatorRelativePosition":"BESIDE","locatorValue":"First Name","locatorType":"RELATIVE_LOCATOR","locatorOperator":"CONTAINING","locatorCriteria":"TEXT_VALUE","locatorTargetType":"TEXT"}
+2016/05/18 01:59:33.683 [DEBUG] |PLAN:1|STEP:1.2|TARGET|LOCATORS:3| Loading LOCATOR...({"locatorRelativePosition":"","locatorValue":"Your first name","locatorType":"TARGET_LOCATOR","locatorOperator":"CONTAINING","locatorCriteria":"TEXT_VALUE","locatorTargetType":"TEXT"}
+2016/05/18 01:59:33.683 [INFO] |PLAN:1|STEP:1.2|  'FILL' the 'TEXT_BOX' with '%{First Name}%'
+2016/05/18 01:59:33.684 [INFO] |Looking for relative locators...(1)
+2016/05/18 01:59:33.684 [DEBUG] |Locator type...(TARGET_LOCATOR)
+2016/05/18 01:59:33.684 [DEBUG] |PLAN:1|STEP:1.2|TARGET|TARGET_LOCATOR|CANDIDATE FILTERS: [contains(text(),'Your first name') or contains(@title,'Your first name') or contains(@alt,'Your first name') or contains(@value,'Your first name')]
+2016/05/18 01:59:33.684 [DEBUG] |PLAN:1|STEP:1.2|TARGET|XPATH: //input[@type='text'][contains(text(),'Your first name') or contains(@title,'Your first name') or contains(@alt,'Your first name') or contains(@value,'Your first name')] | //input[@type=''][contains(text(),'Your first name') or contains(@title,'Your first name') or contains(@alt,'Your first name') or contains(@value,'Your first name')] | //textarea[contains(text(),'Your first name') or contains(@title,'Your first name') or contains(@alt,'Your first name') or contains(@value,'Your first name')]
+2016/05/18 01:59:33.685 [DEBUG] |PLAN:1|STEP:1.2|TARGET:TEXTBOX|BROWSER: Waiting on (STEP:1.1)
+2016/05/18 01:59:33.705 [DEBUG] |PLAN:1|STEP:1.2|TARGET:TEXTBOX|CANDIDATE: Collecting...
+2016/05/18 01:59:33.784 [DEBUG] |PLAN:1|STEP:1.2|TARGET|LOCATOR|CANDIDATES: by TargetType = 1
+2016/05/18 01:59:33.784 [DEBUG] |PLAN:1|STEP:1.2|TARGET|RELATIVE_LOCATOR|CANDIDATES: 1
+2016/05/18 01:59:33.784 [DEBUG] |PLAN:1|STEP:1.2|TARGET:TEXTBOX|LOCATED:false
+2016/05/18 01:59:33.784 [DEBUG] |PLAN:1|STEP:1.2|TARGET|ORDINAL_INSTANCE|CANDIDATES: 0
+2016/05/18 01:59:33.784 [WARNING] |PLAN:1|STEP:1.2| I could not find that TEXTBOX!
+2016/05/18 01:59:33.896 [INFO] |PLAN:1|STEP:1.2|STATUS:FAILED|SCREENSHOT: C:/uol/webuseragentapi/src/main/resources/public/images/screenshot2016-05-18_015933894.png
+2016/05/18 01:59:33.896 [INFO] |PLAN:1 No ASSERTIONS found!
+2016/05/18 01:59:34.199 [INFO] |DONE!

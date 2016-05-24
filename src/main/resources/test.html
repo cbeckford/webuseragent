@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-GB">
+
+<head>
+    <style></style>
+</head>
+
+<body>
+    <p id="results"></p>
+    <form action="/testresults">
+        <h2>Personal Data</h2>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type='text' value='' name='fname' title='Your first name' alt='Your first name' />
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name:</td>
+                <td>
+                    <input type='text' value='' name='mname' />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    <input type='text' value='' name='lname' />
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type='text' value='' name='email' />
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <textarea value='' name='address'>
+                        </textarea/>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type='radio' name='gender' value='male' title='Your gender'>Male
+                    <br>
+                    <input type='radio' name='gender' value='female' title='Your gender'>Female
+                    <br>
+                    <input type='radio' name='gender' value='other' title='Your gender'>Other</td>
+            </tr>
+            <tr>
+                <td>Maital Status:</td>
+                <td>
+                    <select name='marital' title='Your marital status'>
+                        <option value='single'>Single</option>
+                        <option value='married'>Married</option>
+                        <option value='common'>Common Law</option>
+                        <option value='divorced'>Divorced</option>
+                        <option value='widowed'>Widowed</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subscriptions</td>
+                <td>
+                    <input type="checkbox" name="newsletter" value="newsletter">Monthly newsletter
+                    <br>
+                    <input type="checkbox" name="dailyupdates" value="dailyupdates" checked>Daily updates
+                    <br>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <h2>Spouse Data</h2></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type='text' value='' name='sfname' title='Your spouse first name' alt='Your spouse first name' />
+                </td>
+            </tr>
+            <tr>
+                <td>Middle Name:</td>
+                <td>
+                    <input type='text' value='' name='smname' />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    <input type='text' value='' name='slname' />
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type='text' value='' name='semail' />
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <textarea value='' name='saddress'>
+                        </textarea/>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type='text' value='' name='ssex' />
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <h2>Employment Data</h2></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Employer Name:</td>
+                <td>
+                    <input type='text' value='' name='employer' />
+                </td>
+            </tr>
+            <tr>
+                <td>Job Title:</td>
+                <td>
+                    <input type='text' value='' name='jobpost' />
+                </td>
+            </tr>
+            <tr>
+                <td>Work Email:</td>
+                <td>
+                    <input type='text' value='' name='jobemail' />
+                </td>
+            </tr>
+            <tr>
+                <td>Employment Date:</td>
+                <td>
+                    <input type='text' value='' name='empdate' />
+                </td>
+            </tr>
+            <table>
+                <tr>
+                    <td>
+                        <h2>References</h2></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>#</td>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Email</td>
+                    <td>Telephone Number:</td>
+                </tr>
+                <tr>
+                    <td>#1</td>
+                    <td>
+                        <input type='text' value='' name='ref_fname1' title='Your reference first name' alt='Your reference first name' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_lname1' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_email1' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_tel1' />
+                    </td>
+                </tr>
+                <tr>
+                    <td>#2</td>
+                    <td>
+                        <input value='' name='ref_fname2' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_lname2' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_email2' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_tel2' />
+                    </td>
+                </tr>
+                <tr>
+                    <td>#3</td>
+                    <td>
+                        <input type='text' value='' name='ref_fname3' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_lname3' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_email3' />
+                    </td>
+                    <td>
+                        <input type='text' value='' name='ref_tel3' />
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <input type='submit' value='Save' onsubmit='submitForm()' />
+                </tr>
+                </td>
+            </table>
+    </form>
+</body>
+
+</html>

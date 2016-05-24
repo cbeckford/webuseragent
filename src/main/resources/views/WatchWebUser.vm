@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en-GB">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="author" content="Clive Beckford">
+	<meta name="keywords" content="UAT Simulation, UX Simulation Testing, Web User Agent Report, Cloud Simulation Report">
+	<meta name="description" content="A detailed report from the Simulated Web User Agent.">
+	<meta name="robots" content="all">
+	<meta name="copyright" content="Clive Beckford, University of Liverpool">
+	
+	<!--[if gte IE 9 ]><link rel="stylesheet" type="text/css" href="/css/_styles.css" media="screen"><![endif]-->
+	<!--[if !IE]>--><link rel="stylesheet" type="text/css" href="/css/_styles.css" media="screen"><!--<![endif]-->
+	
+	<title>Add Web User Agent | Web User Simulation Service</title>
+
+</head>
+<body>
+
+    <p>
+        $web-user-report
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+{
+"results": {
+"webUserAgent": {
+"firstName": "Clive",
+        "lastName": "Beckford",
+        "email": "clive.beckford@gmail.Com",
+        "role": "Simulated Web User Agent",
+        "desire": "prove that I am smart enough to find and fill out online HTML forms as instructed",
+        "intent": "Application Form",
+        "application": "Mock Web Application",
+        "plannedSteps": {
+        "1": {
+        "userWill": "visit",
+                "the": "url",
+                "with": "http://localhost:4567/"
+        },
+                "2": {
+                "userWill": "fill",
+                        "the": "TEXT_BOX",
+                        "with": "Clive",
+                        "locators": {
+                        "1": {
+                        "locatorType": "TARGET_LOCATOR",
+                                "locatorCriteria": "ORDINAL_INSTANCE",
+                                "locatorOperator": "EQUAL",
+                                "locatorValue": "1"
+                        },
+                                "2": {
+                                "locatorType": "RELATIVE_LOCATOR",
+                                        "locatorRelativePosition": "BESIDE",
+                                        "locatorTargetType": "TEXT",
+                                        "locatorCriteria": "TEXT_VALUE",
+                                        "locatorOperator": "CONTAINING",
+                                        "locatorValue": "First Name"
+                                }
+                        }
+                },
+                "3": {
+                "userWill": "fill",
+                        "the": "text box",
+                        "with": "A.",
+                        "locators": {
+                            "1": {
+                                    "locatorType": "TARGET_LOCATOR",
+                                    "locatorCriteria": "ORDINAL_INSTANCE",
+                                    "locatorOperator": "EQUAL",
+                                    "locatorValue": "2"
+                                }
+                            }
+                },
+                "4": {
+                "userWill": "fill",
+                        "the": "text box",
+                        "with": "Beckford",
+                        "locators": {
+                        "1": {
+                        "locatorType": "TARGET_LOCATOR",
+                                "locatorCriteria": "ORDINAL_INSTANCE",
+                                "locatorOperator": "EQUAL",
+                                "locatorValue": "3"
+                        }
+                        }
+                },
+                "5": {
+                "userWill": "click",
+                        "the": "button",
+                        "with": "Submit",
+                        "locators": {
+                        "1": {
+                        "locatorType": "TARGET_LOCATOR",
+                                "locatorCriteria": "ORDINAL_INSTANCE",
+                                "locatorOperator": "EQUAL",
+                                "locatorValue": "1"
+                        }
+                        }
+                }
+        },
+        "plannedAssertions": {
+        "1": {
+        "thenTheUserWill": "see",
+                "amount": 1,
+                "the": "text box",
+                "with": "Clive",
+                "locators": {
+                "1": {
+                "locatorType": "TARGET_LOCATOR",
+                        "locatorCriteria": "",
+                        "locatorOperator": "",
+                        "locatorValue": "1"
+                }
+                }
+        },
+                "2": {
+                "thenTheUserWill": "see",
+                        "amount": 1,
+                        "the": "link",
+                        "with": "Simulation - Wikipedia, the free encyclopedia",
+                        "locators": {
+                        "1": {
+                        "locatorType": "TARGET_LOCATOR",
+                                "locatorCriteria": "",
+                                "locatorOperator": "",
+                                "locatorValue": "1"
+                        }
+                        }
+                }
+        }
+}
+}
+}

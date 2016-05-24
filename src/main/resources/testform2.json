@@ -1,0 +1,35 @@
+{
+    "results": {
+        "webUserAgent": {
+            "firstName": "Clive",
+            "lastName": "Beckford",
+            "email": "clive.beckford@gmail.Com",
+            "role": "Simulated Web User Agent",
+            "desire": "prove that I am smart enough to find and fill out online HTML forms as instructed",
+            "intent": "Application Form",
+            "application": "Mock Web Application",
+            "plannedSteps": {
+                "1": {
+                    "userWill": "visit",
+                    "the": "url",
+                    "with": "http://localhost:4567/"
+                },
+                "2": {
+                    "userWill": "fill",
+                    "the": "TEXT_BOX",
+                    "with": "Beckford",
+                    "locators": {
+                        "1": {
+							"locatorType": "RELATIVE_LOCATOR",
+                            "locatorRelativePosition": "BESIDE",
+							"locatorTargetType": "TEXT",
+                            "locatorCriteria": "TEXT_VALUE",
+                            "locatorOperator": "CONTAINING",
+                            "locatorValue": "Last Name"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

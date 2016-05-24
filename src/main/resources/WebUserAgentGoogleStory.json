@@ -1,0 +1,97 @@
+ {
+	"results": {
+		"webUserAgent": {
+			"firstName": "Anna",
+			"lastName": "John",
+			"email": "Anna.John@Example.Com",
+			"role": "Visitor",
+			"desire": "find the meaning of a word",
+			"intent": "Word definition search",
+			"application": "Google Search",
+			"keysPerSecond": "4"
+			"plannedSteps": {
+				"1": {
+					"userWill": "visit",
+					"the": "url",
+					"with": "http://www.google.com",
+					"locators": {
+                                            "1": {
+						"locatorType": "TARGET_LOCATOR",
+						"locatorCriteria": "ORDINAL_INSTANCE",
+						"locatorOperator": "EQUAL",
+						"locatorValue": "1",
+						"locatorInstance": 1
+                                            }					
+                                        }                                       
+				},
+				"2": {
+					"userWill": "fill",
+					"the": "text box",
+					"with": "define: simulation",
+					"locators": {
+                                            "1": {
+						"locatorType": "TARGET_LOCATOR",
+						"locatorCriteria": "ORDINAL_INSTANCE",
+						"locatorOperator": "EQUAL",
+						"locatorValue": "1",
+						"locatorInstance": 1
+                                            }
+					}
+				},
+				"3": {
+					"userWill": "click",
+					"the": "button",
+					"with": "Google Search",
+					"locators": {
+                                            "1": {
+						"locatorType": "TARGET_LOCATOR",
+						"locatorCriteria": "ORDINAL_INSTANCE",
+						"locatorOperator": "EQUAL",
+						"locatorValue": "1",
+						"locatorInstance": 1
+                                            },                                         
+                                            "2": {
+						"locatorType": "TARGET_LOCATOR",
+						"locatorCriteria": "TEXT",
+						"locatorOperator": "CONTAINING",
+						"locatorValue": "",
+						"locatorInstance": 1
+                                            }
+					}
+				}
+			},
+			"plannedAssertions": {
+				"1": {
+					"thenTheUserWill": "see",
+					"amount": 1,
+					"the": "text",
+					"with": "Simulation is the imitation of the operation of a real-world process or system over time.",
+					"locators": {
+                                            "1": {
+						"locatorType": "TARGET_LOCATOR",
+						"locatorCriteria": "",
+						"locatorOperator": "",
+						"locatorValue": "",
+						"locatorInstance": 1
+                                            }
+					}
+				},
+				"2": {
+					"thenTheUserWill": "see",
+					"amount": 1,
+					"the": "link",
+					"with": "Simulation - Wikipedia, the free encyclopedia",
+					"locators": {
+                                            "1": {
+						"locatorType": "TARGET_LOCATOR",
+						"locatorCriteria": "",
+						"locatorOperator": "",
+						"locatorValue": "",
+						"locatorInstance": 1
+                                            }
+					}
+				}
+			}
+		}
+	}
+}

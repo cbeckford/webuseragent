@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en-GB">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="author" content="Clive Beckford">
+	<meta name="keywords" content="UAT Simulation, UX Simulation Testing, Web User Agent, Cloud Simulation">
+	<meta name="description" content="Add a Web User Agent by submitting a JSON based model.">
+	<meta name="robots" content="all">
+	<meta name="copyright" content="Clive Beckford, University of Liverpool">
+	
+	<!--[if gte IE 9 ]><link rel="stylesheet" type="text/css" href="/css/_styles.css" media="screen"><![endif]-->
+	<!--[if !IE]>--><link rel="stylesheet" type="text/css" href="/css/_styles.css" media="screen"><!--<![endif]-->
+	
+	<title>Add Web User Agent | Web User Simulation Service</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="/js/randomser.js"></script>   
+	
+	<script type="text/javascript">
+		function clickSubmit() {
+			var div = document.getElementById('web-user-create-div');
+			var div2 = document.getElementById('web-user-creating-div');
+			if (div.style.display !== 'none') {
+				div.style.display = 'none';
+			}
+			else {
+				div.style.display = 'block';
+			}
+			if (div2.style.display !== 'none') {
+				div2.style.display = 'none';
+			}
+			else {
+				div2.style.display = 'block';
+			}
+		};
+	</script>
+	
+</head>
+<body>
+<div id="main">
+<div class="main_resize">
+<div class="header">
+
+	<div id="web-user-create-div" style='display:block' >
+            <h2>Web User Data</h2>
+            <i>(From <a href="https://www.RandomUser.me/">RandomUser.me</a>)</i>
+            <form id="web-user-modelling-form" action="" method="POST">
+                    <input type="text" name=value="Submit" id="submit" onclick="clickSubmit()">
+
+                    
+            </form>
+
+            <form id="web-user-create-form" action="/webuseragent/run" method="POST">
+                    Web User Agent Model (as JSON text!): </br>
+                    <textarea name="web-user-json" form="web-user-create-form" rows="20 " cols="80">$web-user-json</textarea><br>
+                    <input type="submit" value="Submit" id="submit" onclick="clickSubmit()">
+            </form>
+	</div>
+	<div id="web-user-creating-div" style='display:none'>
+		<p style="text-align: center;">
+		</hr>
+		Please wait while I handle this for you...</br>
+		<img src="/css/vworking.gif" alt="" width="200">
+		<hr>
+		</p>
+		
+		
+	</div>
+</div>
+</body>
+</html>

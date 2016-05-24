@@ -1,0 +1,162 @@
+{
+	"results" : {
+		"webUserAgent" : {
+			"firstName" : "Anna",
+			"lastName" : "John",
+			"email" : "Anna.John@Example.Com",
+			"password" : "Password123",
+			"userName" : "ajohn001",
+			"role" : "Visitor",
+			"desire" : "find the meaning of a word",
+			"intent" : "Word definition search",
+			"application" : "Google Search",
+			"applicationHasAjax" : "No",
+			"defaultCaptionPosition" : "No",
+			"plannedSteps" : {
+				"1" : {
+					"userWill" : "visit",
+					"the" : "url",
+					"with" : "http://www.jmmb.com",
+					"locators" : {
+						"1" : {
+							"locatorCriteria" : "",
+							"locatorOperator" : "",
+							"locatorValue" : "",
+							"locatorInstance" : 1
+						}
+					}
+				},
+				"2" : {
+					"userWill" : "click",
+					"the" : "link",
+					"with" : "Moneyline Online Transactions",
+					"locators" : {
+						"1" : {
+							"locatorType" : "TARGET_LOCATOR",
+							"locatorCriteria" : "ORDINAL_INSTANCE",
+							"locatorOperator" : "EQUAL",
+							"locatorValue" : "1",
+							"locatorInstance" : 1
+						}
+					}
+				},
+				"3" : {
+					"userWill" : "click",
+					"the" : "link",
+					"with" : "JMMB Merchant Bank Ltd. (Jamaica)",
+					"locators" : {
+						"1" : {
+							"locatorType" : "TARGET_LOCATOR",
+							"locatorCriteria" : "ORDINAL_INSTANCE",
+							"locatorOperator" : "EQUAL",
+							"locatorValue" : "1",
+							"locatorInstance" : 1
+						}
+					}
+				},
+				"4" : {
+					"userWill" : "click",
+					"the" : "link",
+					"with" : "PERSONAL",
+					"locators" : {
+						"1" : {
+							"locatorType" : "TARGET_LOCATOR",
+							"locatorCriteria" : "ORDINAL_INSTANCE",
+							"locatorOperator" : "EQUAL",
+							"locatorValue" : "1",
+							"locatorInstance" : 1
+						}
+					}
+				},
+				"5" : {
+					"userWill" : "fill",
+					"the" : "text_box",
+					"with" : "%{User Name}%",
+					"locators" : {
+						"1" : {
+							"locatorType" : "TARGET_LOCATOR",
+							"locatorCriteria" : "ORDINAL_INSTANCE",
+							"locatorOperator" : "EQUAL",
+							"locatorValue" : "1",
+							"locatorInstance" : 1
+						},
+						"2" : {
+							"locatorType" : "RELATIVE_LOCATOR",
+							"locatorRelativePosition" : "BESIDE",
+							"locatorTargetType" : "TEXT",
+							"locatorCriteria" : "TEXT_VALUE",
+							"locatorOperator" : "CONTAINING",
+							"locatorValue" : "Password"
+						}
+					}
+				},
+				"6" : {
+					"userWill" : "fill",
+					"the" : "text_box",
+					"with" : "Password123",
+					"locators" : {
+						"1" : {
+							"locatorType" : "TARGET_LOCATOR",
+							"locatorCriteria" : "ORDINAL_INSTANCE",
+							"locatorOperator" : "EQUAL",
+							"locatorValue" : "1",
+							"locatorInstance" : 1
+						},
+						"2" : {
+							"locatorType" : "RELATIVE_LOCATOR",
+							"locatorRelativePosition" : "BESIDE",
+							"locatorTargetType" : "TEXT",
+							"locatorCriteria" : "TEXT_VALUE",
+							"locatorOperator" : "CONTAINING",
+							"locatorValue" : "Password"
+						}
+					}
+				},
+				"7" : {
+					"userWill" : "click",
+					"the" : "link",
+					"with" : "Forget User Name",
+					"locators" : {
+						"1" : {
+							"locatorType" : "TARGET_LOCATOR",
+							"locatorCriteria" : "ORDINAL_INSTANCE",
+							"locatorOperator" : "EQUAL",
+							"locatorValue" : "1",
+							"locatorInstance" : 1
+						}
+					}
+				}
+			},
+			"plannedAssertions" : {
+				"1" : {
+					"thenTheUserWill" : "see",
+					"amount" : 1,
+					"the" : "text",
+					"with" : "Simulation is the imitation of the operation of a real-world process or system over time.",
+					"locators" : {
+						"1" : {
+							"locatorCriteria" : "",
+							"locatorOperator" : "",
+							"locatorValue" : "",
+							"locatorInstance" : 1
+						}
+					}
+				},
+				"2" : {
+					"thenTheUserWill" : "see",
+					"amount" : 1,
+					"the" : "link",
+					"with" : "Simulation - Wikipedia, the free encyclopedia",
+					"locators" : {
+						"1" : {
+							"locatorCriteria" : "",
+							"locatorOperator" : "",
+							"locatorValue" : "",
+							"locatorInstance" : 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

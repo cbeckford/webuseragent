@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 30, 2016, 11:51:39 AM
+    Author     : Clive
+*/
+
+/* Just some base styles not needed for example to function */
+*, html { font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+body, form, ul, li, p, h1, h2, h3, h4, h5
+{
+	margin: 0;
+	padding: 0;
+}
+
+body { background-color: #606061; color: #ffffff; margin: 0; }
+
+img { border: none; }
+p
+{
+	font-size: 1em;
+	margin: 0 0 1em 0;
+}
+
+html { font-size: 100%; /* IE hack */ }
+body { font-size: 1em; /* Sets base font size to 16px */ }
+table { font-size: 100%; /* IE hack */ }
+input, select, textarea, th, td { font-size: 1em; }
+	
+/* CSS Tree menu styles */
+ol.tree
+{
+	padding: 0 0 0 30px;
+	width: 900px;
+}
+	li 
+	{ 
+		position: relative; 
+		margin-left: -15px;
+		list-style: none;
+	}
+        li.file div
+	{
+		margin-left: -1px !important;
+                background: url(file.png) 0 0 no-repeat;
+	}
+	li.folder div
+	{
+		margin-left: -1px !important;
+                background: url(folder.png) 0 0 no-repeat;
+	}
+	li.introduction div
+	{
+		margin-left: -1px !important;
+                background: url(introduction.png) 0 0 no-repeat;
+                color: #fff;
+                padding-left: 21px;
+                text-decoration: none;
+                width: 3px;
+                display: block;
+	}
+	li.data div
+	{
+		margin-left: -1px !important;
+                background: url(data.png) 0 0 no-repeat;
+	}
+	li.step div
+	{
+		margin-left: -1px !important;
+                background: url(pass.png) 0 0 no-repeat;
+	}
+        li a
+        {
+                background: url(steps.png) 0 0 no-repeat;
+                color: #fff;
+                padding-left: 30px;
+                text-decoration: none;
+                display: block;
+                background: url(document.png) 0 0 no-repeat;
+        }
+		li.introduction a
+		{
+			background: url(document.png) 0 0 no-repeat;
+			color: #fff;
+			padding-left: 30px;
+			text-decoration: none;
+			display: block;
+		}
+		li.introduction a[href *= '#']  { background: url(introduction.png) 0 0 no-repeat; }
+                
+		li.data a
+		{
+			background: url(data.png) 0 0 no-repeat;
+			color: #fff;
+			padding-left: 30px;
+			text-decoration: none;
+			display: block;
+		}
+		li.data a[href *= '#']  { background: url(data.png) 0 0 no-repeat; }
+                
+		li.steps a
+		{
+			background: url(steps.png) 0 0 no-repeat;
+			color: #fff;
+			padding-left: 30px;
+			text-decoration: none;
+			display: block;
+		}
+		li.steps a[href *= '#']  { background: url(steps.png) 0 0 no-repeat; }
+                
+		li.file a
+		{
+			background: url(document.png) 0 0 no-repeat;
+			color: #fff;
+			padding-left: 21px;
+			text-decoration: none;
+			display: block;
+		}
+		li.file a[href *= '.pdf']	{ background: url(document.png) 0 0 no-repeat; }
+		li.file a[href *= '.html']	{ background: url(document.png) 0 0 no-repeat; }
+		li.file a[href $= '.css']	{ background: url(document.png) 0 0 no-repeat; }
+		li.file a[href $= '.js']        { background: url(document.png) 0 0 no-repeat; }
+	li input
+	{
+		position: absolute;
+		left: 0;
+		margin-left: 0;
+		opacity: 0;
+		z-index: 2;
+		cursor: pointer;
+		height: 1em;
+		width: 1em;
+		top: 0;
+	}
+		li input + ol
+		{
+			background: url(toggle-small-expand.png) 40px 0 no-repeat;
+                        /*background-position: left top; */
+			margin: -0.938em 0 0 -44px; /* 15px */
+			height: 1em;
+		}
+		li input + ol > li { display: none; margin-left: -14px !important; padding-left: 1px; }
+	li label
+	{
+		background: url(folder-horizontal.png) 15px 1px no-repeat;
+		cursor: pointer;
+		display: block;
+		padding-left: 37px;
+	}
+
+	li label.step
+	{
+		background: url(tick.png) 15px 1px no-repeat;
+		cursor: pointer;
+		display: block;
+		padding-left: 37px;
+	}
+
+	li input:checked + ol
+	{
+		background: url(toggle-small.png) 40px 5px no-repeat;
+		margin: -1.25em 0 0 -44px; /* 20px */
+		padding: 1.563em 0 0 80px;
+		height: auto;
+	}
+		li input:checked + ol > li { display: block; margin: 0 0 0.125em;  /* 2px */}
+		li input:checked + ol > li:last-child { margin: 0 0 0.063em; /* 1px */ }
